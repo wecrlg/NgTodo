@@ -1,0 +1,20 @@
+/* You can add global styles to this file, and also import other style files */
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    box-sizing: border-box;
+    overflow-x: hidden !important;
+}
+
+html {
+    font-size: 80%;
+}
+
+body {
+    background-color: #494949;
+    color: #c1c1c1;
+    font-family: 'Poppins', sans-serif !important;
+}

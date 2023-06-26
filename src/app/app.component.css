@@ -1,0 +1,34 @@
+.todo_container {
+    width: 50%;
+    margin: 10px auto;
+}
+
+.todo_input {
+    width: 100%;
+    height: 25px;
+    border: 1px solid #c1c1c1;
+    background-color: transparent;
+    color: #c1c1c1;
+    outline: 0;
+    border-radius: 4px;
+    padding-left: 8px;
+}
+
+.inputBtn {
+    width: 100px;
+}
+
+.list {
+    width: 100%;
+}
+
+.todovalueDel {
+    text-decoration: line-through !important;
+}
+
+@media only screen and (max-width: 600px) {
+    .todo_container {
+        width: 100%;
+        margin: 10px 7px;
+    }
+}
